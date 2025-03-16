@@ -31,3 +31,28 @@
 {
     position:relative;
 }
+
+._-padding-10
+{
+    padding: 10px;
+}
+._-padding-20
+{
+    padding: 20px;
+}
+._-padding-30
+{
+    padding: 30px;
+}
+._-margin-10
+{
+    margin: 10px;
+}
+._-margin-20
+{
+    margin: 20px;
+}
+._-margin-30
+{
+    margin: 30px;
+}

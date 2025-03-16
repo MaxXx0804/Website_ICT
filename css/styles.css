@@ -137,7 +137,7 @@ nav ul li
 
 .line
 {
-    width: 50px;
+    width: 150px;
     height: 1px;
     background-color: #FFD700;
     margin-left: 5px;
@@ -161,6 +161,27 @@ nav ul li
     background: #23314A;
     padding: 50px;
 }
+
+.wwco-text-content
+{
+    border: .5px solid grey;
+    padding: 20px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.wwco-text-content div svg
+{
+    width: 30px;
+    margin: 0px 20px 0px 10px;
+}
+
+.wwco-text-content div h4
+{
+    margin-bottom: 10px; 
+}
+
 .member-profile 
 {
     display: flex;
