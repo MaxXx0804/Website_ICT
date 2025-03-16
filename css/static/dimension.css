@@ -1,0 +1,45 @@
+.height-100vh
+{
+    height: 100vh;
+}
+.height-90vh
+{
+    height: 90vh;
+}
+.height-80vh
+{
+    height: 80vh;
+}
+.height-70vh
+{
+    height: 70vh;
+}
+.height-60vh
+{
+    height: 60vh;
+}
+.height-50vh
+{
+    height: 50vh;
+}
+
+.dflex
+{
+    display: flex;
+}
+.dflex-justify-center
+{
+    justify-content: center;
+}
+.dflex-justify-spacebetween
+{
+    justify-content: space-between;
+}
+.dflex-align-center
+{
+    align-items: center;
+}
+.dflex-fd-col
+{
+    flex-direction: column;
+}

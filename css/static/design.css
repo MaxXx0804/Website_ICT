@@ -1,0 +1,33 @@
+._-list-style-square
+{
+    list-style-type: square;
+}
+
+._-color-black
+{
+    color: #030303;
+}
+
+._-font-size-s
+{
+    font-size: var(--font-size-s);    
+}
+
+._-font-size-m
+{
+    font-size: var(--font-size-m);    
+}
+
+._-font-size-l
+{
+    font-size: var(--font-size-l);    
+}
+
+._-pos-abs
+{
+    position: absolute;
+}
+._-pos-rel
+{
+    position:relative;
+}
