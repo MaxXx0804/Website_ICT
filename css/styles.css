@@ -40,7 +40,7 @@ body
 }
 header 
 {
-    position: sticky;
+    position: fixed;
     width: 100%;
     background: url(../image/HEADER.png);
     padding: 15px 30px;
@@ -49,6 +49,8 @@ header
     justify-content: space-between;
     align-items: center;
     height: 100px;
+    overflow: hidden;
+    top:0;
 }
 
 .logo img
@@ -77,6 +79,7 @@ nav ul li
     text-align: left;
     background: linear-gradient(to right,var(--darkest-blue) 0%, var(--darker-blue) 14%, var(--dark-blue) 93%);
     height: 100vh;
+    margin-top: 50px;
 }
 
 .hero-content 

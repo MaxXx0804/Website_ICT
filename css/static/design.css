@@ -1,6 +1,11 @@
 ._-list-style-square
 {
-    list-style-type: square;
+    list-style-image: url("../../image/ListImage.svg");
+}
+
+._-list-style-square li
+{
+    margin-bottom: 5px;
 }
 
 ._-color-black
