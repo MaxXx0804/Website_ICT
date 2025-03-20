@@ -8,7 +8,7 @@
 
 .__nav-buttons:hover
 {
-    background-color: #fff;
+    background-color: #2b1414;
 }
 
 .__explore
@@ -30,4 +30,41 @@
 {
     box-shadow: -5px -5px var(--dark-blue);
     background-color: var(--light-blue);
+}
+
+.clickmembers-button-image:hover
+{
+    color: black;
+    filter: invert(30%);
+}
+.clickmembers-button-image:active
+{
+    color: black;
+    filter: invert(100%);
+}
+
+.video-item:hover 
+{
+    transform: scale(1.05);
+    filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.3));
+    z-index: 2;
+}
+
+.video-item:hover > .video-description
+{
+    z-index: 100;
+    visibility: visible;
+    width: 150%;
+    opacity: 1;
+}
+.video-item:hover > .play-button
+{
+    z-index: 100;
+    visibility: visible;
+    opacity: 1;
+}
+.output-src:hover > img
+{
+    filter: drop-shadow(0 10px 10px #1A1A1A);
+    transform: scale(1.05);
 }

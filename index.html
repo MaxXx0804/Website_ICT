@@ -11,10 +11,6 @@
     <link rel="stylesheet" href="css/footer.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-
-        
-    </style>
 </head>
 <body>
     <header>
@@ -30,12 +26,12 @@
         </nav>
     </header>
     
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
             <div class="hero-content-left">
                 <div>
                     <h1>Want to Know More About Us?</h1>
-                    <button class="__explore">Explore</button>
+                    <button class="__explore" onclick="location.href='#about'">Explore</button>
                 </div>
                 <div class="spacer"></div>
             </div>
@@ -56,30 +52,39 @@
         </h2>
         <p>We're group of students from 10 Macario Sakay who share  a love for creativity, collaboration, and a little bit of magic. This Harry Potter-themed website is part of our school project, where we showcase our outputs, videos, and teamwork. Step into our world and discover what we've created together!</p>
         <ul class="_-list-style-square">
-            <li class="_-font-size-s">&nbsp;&nbsp;Masisipag</li>
-            <li class="_-font-size-s">&nbsp;&nbsp;Malay</li>
-            <li class="_-font-size-s">&nbsp;&nbsp;Izza prank</li>
+            <li class="_-font-size-s">&nbsp;&nbsp;Gee</li>
+            <li class="_-font-size-s">&nbsp;&nbsp;Alice Guo</li>
+            <li class="_-font-size-s">&nbsp;&nbsp;JJ</li>
         </ul>
     </section>
     
     
 
-    <section class="content-section height-90vh member-profile members dflex _-pos-rel">
+    <section class="content-section height-90vh member-profile members dflex _-pos-rel" id="members">
         <div class="image-section _-pos-rel">
-            <img src="image/HERMIONE PORTRAIT.png" alt="Member Image">
+            <div class="dflex clickmembers">
+                    <img src="image/LeftArrowButton.svg" alt="" class="clickmembers-button-image " onclick="MembersButtonClick('left')">
+                    <img src="image/RightArrowButton.svg" alt="" class="clickmembers-button-image " onclick="MembersButtonClick('right')">
+            </div>
+            <div class="student-portrait">
+                <img src="image/HERMIONE PORTRAIT.png" alt="Member Image" class="cm-imageURL">
+            
+            </div>
+            
             <div class="_-pos-abs text-on-image">
-                <h2 class="_-font-size-l">CASTILLO, <br>Weegee Andrea</h2>
-                <span class="role _-font-size-l">MEMBER</span>
+                <h2 class="_-font-size-l cm-lastname">CASTILLO,</h2>
+                <h2 class="cm-firstname">Weegee Andrea</h2>
+                <span class="role _-font-size-l cm-position" style="color: #FF7D56; font-weight: bold;">MEMBER</span>
             </div>
         </div>
         
         <div class="text-section">
-            <p class="_-font-size-s">I hate blacks</p>
-            <p class="_-font-size-s">Please stop this madness</p>
+            <p class="_-font-size-s cm-biodata">Wew</p>
+            <p class="_-font-size-s cm-quote">Please stop this madness</p>
         </div>
     </section>
     
-    <section>
+    <section style="background-color: #23314A;">
         <div class="content-section">
             <h2 class="dflex dflex-fd-col">
                 <div class="dflex dflex-align-center">
@@ -144,23 +149,165 @@
         </div>
     </section>
 
-    <section id="outputs" class="content-section height-90vh">
-        <h2>OUR OUTPUTS</h2>
-        <div class="gallery">
-            <img src="output1.jpg" alt="Output">
-            <img src="output2.jpg" alt="Output">
-            <img src="output3.jpg" alt="Output">
+    <section class="content-section  dflex dflex-justify-center dflex-align-center videogallery" id="videos">
+        <div class="gallery-container">
+            <h2>VIDEO GALLERY</h2>
+            <div class="gallery-grid">
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>Weegee Video</h2>
+                        <p>Harry Yawa</p>
+                    </div>
+                    <a href="videos/Gee_1.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>Weegee Video</h2>
+                        <p>Palo na may konting explanation</p>
+                    </div>
+                    <a href="videos/Gee_2_Meme.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>Weegee Video</h2>
+                        <p>Gyatt</p>
+                    </div>
+                    <a href="videos/Gee_3_Meme.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>JJ Video</h2>
+                        <p>Gyatt</p>
+                    </div>
+                    <a href="videos/JJ_1.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>JJ Video</h2>
+                        <p>Gyatt</p>
+                    </div>
+                    <a href="videos/JJ_2_Meme.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>JJ Video</h2>
+                        <p>Gyatt</p>
+                    </div>
+                    <a href="videos/JJ_3_Meme.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>Alice Guo Video</h2>
+                        <p>Gyatt</p>
+                    </div>
+                    <a href="videos/ALICE GUO FINAL.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>Alice Guo Video</h2>
+                        <p>Gyatt</p>
+                    </div>
+                    <a href="videos/ALICE GUO CHICKEN.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="video-item">
+                    <div class="video-description">
+                        <h6>Title</h6>
+                        <h2>Alice Guo Video</h2>
+                        <p>Gyatt</p>
+                    </div>
+                    <a href="videos/ALICE GUO MEME.mp4" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                            <path d="M41.0557 17.5279C44.741 19.3705 44.741 24.6295 41.0557 26.4721L7.23606 43.382C3.91155 45.0442 0 42.6267 0 38.9098L0 5.09017C0 1.37326 3.91156 -1.04422 7.23606 0.618034L41.0557 17.5279Z" fill="white"/>
+                        </svg>
+                    </a>
+                </div>
+               
+                
+            </div>
         </div>
     </section>
     
-    <section id="videos" class="content-section height-90vh">
-        <h2>VIDEO GALLERY</h2>
-        <div class="gallery">
-            <img src="video1.jpg" alt="Video">
-            <img src="video2.jpg" alt="Video">
+    <section class="content-section dflex dflex-align-center dflex-justify-center output" id="outputs">
+        <div class="output-container">
+            <div class="output-floral">
+                <img src="image/FLORAL_LINE.png" alt="">
+            </div>
+            <div class="output-header">
+                <div class="decorative-line"></div>
+                <h2>OUTPUTS</h2>
+                <div class="decorative-line"></div>
+            </div>
+        
+            <div class="output-content">
+                <div class="output-image-container">
+                    <a href="output/Q1_ACT5.html" class="output-src">
+                        <img src="image/VIDEO AND OUTPUT.jpg" alt="Beautiful Lake Scene" class="output-image">
+                    </a>
+                </div>
+                <div class="output-text-container">
+                    <h3 class="output-title">Q1 ACT 5</h3>
+                    <br><br>
+                    <p class="output-main-text">
+                        This activity is entitled Elephant and Friends Story where i’ve decided to use div as their divider to make it easy to understand. On the left side of the div, you can witness the story itself–a moral lesson was also stated at the bottom part of the story. On the right side, I’ve decided to put an image for you to foresee what the story looks like. 
+                    </p>
+                </div>
+            </div>
+        
+            <div class="pagination">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        
+            <div class="output-footer">
+                <img src="image/LeftArrowButton.svg" alt="" class="clickmembers-button-image " onclick="OutputFunction('left')">
+                <a href="" class="quarter-btn">1ST QUARTER</a>
+                <img src="image/RightArrowButton.svg" alt="" class="clickmembers-button-image " onclick="OutputFunction('right')">
+            </div>
         </div>
     </section>
-    
+
     <footer>
         <div class="footer-container">
             <div class="footer-section">
@@ -176,18 +323,18 @@
             
             <div class="footer-section">
                 <h3>Useful Links</h3>
-                <p>Home</p>
-                <p>About Us</p>
-                <p>Group Videos</p>
-                <p>Group Outputs</p>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">About Us</a></p>
+                <p><a href="#">Group Videos</a></p>
+                <p><a href="#">Group Outputs</a></p>
             </div>
             
             <div class="footer-section">
                 <h3>Our Services</h3>
-                <p>Belly Maker</p>
-                <p>Belly Smelter</p>
-                <p>Belly Shaker</p>
-                <p>Belly Dancer</p>
+                <p>Book of Harry potters </p>
+                <p>Stickers of Harry potters</p>
+                <p>Fanmade Harry Potter</p>
+                <p>• Poster Of harry potters</p>
             </div>
     
             <div class="footer-section">
@@ -200,7 +347,9 @@
                 </div>
             </div>
         </div>
-        <p class="copyright">© Copyright <strong>Group Name</strong> All Rights Reserved</p>
+        <p class="copyright">© Copyright <strong>RULAVICASCAS</strong> All Rights Reserved</p>
     </footer>
+    <script type="text/javascript" src="js/animations.js"></script>
+
 </body>
 </html>
