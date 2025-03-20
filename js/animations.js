@@ -5,7 +5,7 @@ contentArray =
         {
             "lastname": "CASTILLO",
             "firstname":"Weegee Andrea M.",
-            "biodata": "I hate niggers",
+            "biodata": "Please stop this madness",
             "quote": "\"Haha eto pagod kaka edit\"",
             "imageURL":"image/GEE.png",
             "position":"MEMBER"
@@ -13,7 +13,7 @@ contentArray =
         {
            "lastname": "RUINA",
             "firstname":"Jhaecel Faith",
-            "biodata": "I hate browns",
+            "biodata": "Straight as a circle",
             "quote": "\"As long as I believe it, I'm sure that I can Achieve it.\"",
             "imageURL":"image/RUINA.png",
             "position":"MEMBER"
@@ -21,9 +21,9 @@ contentArray =
         {
             "lastname": "LAMPA",
             "firstname":"Rency",
-            "biodata": "I hate whites",
+            "biodata": "I love old men",
             "quote": "\"What’s comin’ will come, an’ we’ll meet it when it does.\"",
-            "imageURL":"image/",
+            "imageURL":"image/ALICE HUO.png",
             "position":"MEMBER"
 
 
@@ -38,25 +38,25 @@ outputContentArray =
         {
             "title":"Q1 ACT 5",
             "maintext":"This activity is entitled Elephant and Friends Story where i’ve decided to use div as their divider to make it easy to understand. On the left side of the div, you can witness the story itself–a moral lesson was also stated at the bottom part of the story. On the right side, I’ve decided to put an image for you to foresee what the story looks like. ",
-            "image":"image/VIDEO AND OUTPUT.jpg",
+            "image":"image/q1_act5.png" ,
             "htmlsrc":"output/Q1_ACT5.html"
         },
         {
             "title":"Q2",
             "maintext":"This activity is same with ACT 2. This activity showcases the stories of Aesop, we all know that Aesop is well known and one story is not enough–providing a story list will help the readers know more about his literature.",
-            "image":"image/VIDEO AND OUTPUT.jpg",
+            "image":"image/q2_act2.png",
             "htmlsrc":"output/Q2_ACT2.html"
         },
         {
             "title":"Q3",
             "maintext":"This activity is entitled POS (Point Of Sale) ACT 3 where we sell different types of traditional dishes. Filipino cuisine is one of the best in the Southeast Asian countries, providing an accessible shop will help other people to try our traditional dishes.",
-            "image":"image/VIDEO AND OUTPUT.jpg",
+            "image":"image/q3_act2.png",
             "htmlsrc":"output/Q3_ACT3.html"
         },
         {
             "title":"Q4",
             "maintext":"This activity is a Vowel Extractor, where when you input random words, the following vowels will be extracted in the input. Vowel extractor can be helpful in some cases. ",
-            "image":"image/VIDEO AND OUTPUT.jpg",
+            "image":"image/q4_act4.png",
             "htmlsrc":"output/Q4_ACT4.html"
         },
     ],
