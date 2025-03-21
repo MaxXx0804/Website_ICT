@@ -21,7 +21,7 @@ contentArray =
         {
             "lastname": "LAMPA",
             "firstname":"Rency",
-            "biodata": "I love old men",
+            "biodata": "I love reading books",
             "quote": "\"What’s comin’ will come, an’ we’ll meet it when it does.\"",
             "imageURL":"image/ALICE HUO.png",
             "position":"MEMBER"
